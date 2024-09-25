@@ -1,4 +1,4 @@
-# Toy ELF crafting framework
+# Toy ELF x86-64 crafting framework
 
 This is a small set of functions which you can build on to create x86-64 ELF
 executables from raw bytes.
@@ -68,10 +68,13 @@ To see it work:
 
 ```bash
 ; python3 example_quine.py # Generate the quine
+
 ; cd build                 # Go into the build dir
 ; chmod a+x quine          # Mark the quine executable
 ; ./quine > double         # Run the quine and output to a file
+
 ; sha1sum quine double     # Observe that they are the same file
+
 ; od -x quine              # Or check yourself with od
 ; od -x double
 ```
