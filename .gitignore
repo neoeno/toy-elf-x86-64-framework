@@ -1,0 +1,5 @@
+__pycache__
+
+# Ignore the contents of build but preserve the .keep file
+build/*
+!build/.keep

@@ -1,0 +1,5 @@
+{
+  "name": "Ubuntu x64",
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "runArgs": ["--platform", "linux/amd64"]
+}
