@@ -54,7 +54,9 @@ If you're new to Dev Containers you might appreciate [the Microsoft tutorial.](h
 If you want to use straight Docker, this will get you a container with the
 current directory shared:
 
+```shell
 docker run -v $(pwd):/root/code -w /root/code --platform linux/amd64 -it python:3.12 bash
+```
 
 # Running the Quine
 
